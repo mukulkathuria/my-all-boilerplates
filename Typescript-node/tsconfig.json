@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "lib": ["ES2015", "ES2016"],
+    "lib": ["DOM", "ES2017", "ES2015", "ES2016"],
     "target": "es6",
     "module": "commonjs",
     "noImplicitAny": true,
+    "esModuleInterop": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*.ts"]
 }
